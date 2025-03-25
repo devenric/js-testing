@@ -6,10 +6,9 @@ const dia = fecha.getMinutes();
 console.log(`${date}/${mes}/${año}`);
 console.log("hola");
 
+const content = document.querySelector('.content');
 let respuesta = prompt("rojo o azul?");
 if (respuesta == "rojo") {
-    body.style.backgroundColor = "red";
+    content.style.backgroundColor = "red";
 }
-else {body.style.backgroundColor = "blue";}
-let parrafonuevo = document.querySelector(".parrafo");
-const p = document.createElement("p");
+else {content.style.backgroundColor = "blue";}
