@@ -9,6 +9,6 @@ console.log("hola");
 const content = document.querySelector('.content');
 let respuesta = prompt("rojo o azul?");
 if (respuesta == "rojo") {
-    content.style.backgroundColor = "red";
+    content.style.backgroundColor = 'red';
 }
-else {content.style.backgroundColor = "blue";}
+else {content.style.backgroundColor = 'blue';}
