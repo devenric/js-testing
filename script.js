@@ -20,7 +20,7 @@ if (respuesta2 == "si") {
     document.createElement('p');
     texto.className = 'nuevoelemento';
     texto.textContent = texto;
-    let newelement = document.querySelector('.texto');
-    content.appendChild(newelement);
+    let newelement = document.querySelector('nuevoelemento');
+    content.appendChild('ul');
 }
 else {confirm(`adios,${user}`);}
