@@ -1,6 +1,6 @@
 let respuesta = prompt("Introduce tu nombre")
 const fecha = new Date()
 const año = fecha.getFullYear()
-const mes = fecha.getMonth()
+const mes = fecha.getMonth() + 1
 const dia = fecha.getMinutes()
-console.log(`${fecha}/${mes}/${año}`)
+console.log(`${date}/${mes}/${año}`)
