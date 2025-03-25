@@ -1,2 +1,6 @@
 let respuesta = prompt("Introduce tu nombre")
-let print = document.getElementsByClassName('div')
+const fecha = new Date()
+const año = getFullYear()
+const mes = getMonth()
+const dia = getMinutes()
+console.log(`${fecha}/${mes}/${año}`)
