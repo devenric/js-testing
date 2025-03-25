@@ -7,3 +7,21 @@ padding: 0;
 margin: 0;}
 .div{text-align: left;}
 .date{text-align: right;}
+.grid{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto auto;}
+.header{
+grid-column: 1/4;
+grid-row: 1/2;
+background-color: red;}
+.content{
+grid-column: 1/4;
+grid-row:2/3 ;
+background-color: blue;
+height: 100vh;
+}
+.footer{
+grid-column: 1/4;
+grid-row:3/4 ;
+background-color: green;}
