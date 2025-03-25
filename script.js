@@ -16,11 +16,11 @@ else {content.style.backgroundColor = 'blue';}
 
 let respuesta2 = prompt("quieres crear un texto?");
 if (respuesta2 == "si") {
+    let newelement = document.createElement('li');
     let texto = prompt("escribe el texto");
-    document.createElement('p');
-    texto.className = 'nuevoelemento';
-    texto.textContent = texto;
-    let newelement = document.getElementsByClassName('nuevoelemento');
-    content.appendChild('li');
+    newelement.className = '.nuevoelemento';
+    newelement.textContent = texto;
+    let newelement = document.getElementsByClassName('.nuevoelemento');
+    newelement.appendChild(nuevoelemento);
 }
 else {confirm(`adios,${user}`);}
